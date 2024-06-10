@@ -36,3 +36,13 @@ window.onclick = function(event) {
     }
   });
 }
+// Video play logic
+const clip=document.querySelectorAll(".clip")
+for(let i=0;i<clip.length;i++){
+  clip[i].addEventListener('mouseenter',()=>{
+    clip[i].play()
+  })
+  clip[i].addEventListener('mouseout',()=>{
+    clip[i].pause()
+  })
+}

@@ -106,9 +106,18 @@ width: 80%;
   .text-container {
     text-align: justify;
   }
+
+  .modal{
+    height: 100%;
+    width: 100%;
+  }
   .modal-content{
     height: 100%;
     width: 100%;
+  }
+
+  .video-container{
+    /* height: 100vh; */
   }
 
 }
