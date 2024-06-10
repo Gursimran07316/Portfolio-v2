@@ -106,4 +106,9 @@ width: 80%;
   .text-container {
     text-align: justify;
   }
+  .modal-content{
+    height: 100%;
+    width: 100%;
+  }
+
 }
