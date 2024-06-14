@@ -17,6 +17,7 @@ var spans = document.querySelectorAll('.close');
 btns.forEach(btn => {
   btn.onclick = function() {
     var modal = document.getElementById(btn.getAttribute('data-modal'));
+    modal.querySelector(".clip").play()
     modal.style.display = 'block';
   }
 });
