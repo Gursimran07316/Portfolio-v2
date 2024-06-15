@@ -173,13 +173,16 @@ section {
 
 .section__pic-container {
   display: flex;
-  
 }
 .section__pic-container img{
   width: 100%;
   height: 100%;
+  transition: all 1.1s;
 }
-
+.section__pic-container:hover img{
+  transform: scale(1.2);
+ 
+}
 .section__text {
   align-self: center;
   text-align: center;
@@ -320,6 +323,10 @@ section {
   margin: auto 0;
 }
 
+#about .section__pic-container{
+overflow: hidden;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -370,14 +377,19 @@ article .icon {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
 }
-
+#projects .article-container{
+overflow: hidden;
+}
 .project-img {
   border-radius: 2rem;
   width: 100%;
   height: 100%;
+ transition: all 1.1s;
 }
-
-
+#projects .article-container:hover img{
+  transform: scale(1.2);
+ 
+}
 .project-title {
   margin: 1rem;
   color: black;
