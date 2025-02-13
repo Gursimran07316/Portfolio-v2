@@ -68,6 +68,13 @@
   .btn-container {
     flex-wrap: wrap;
   }
+  .article-container {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: initial;
+  }
   .contact-info-container {
     margin: 0;
   }
@@ -91,11 +98,17 @@
   }
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    min-height: 46vw;
     justify-content: center;
   }
+  /* .section__pic-container, .about-pic {
+    width: 100%;
+    height: 100%;
+    transition: none;
+  } */
   .section__pic-container img{
-width: 80%;
+width: 100%;
+height: 250px;
   }
   .section__text__p2 {
     font-size: 1.25rem;
