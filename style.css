@@ -173,16 +173,11 @@ section {
 
 .section__pic-container {
   display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
-.section__pic-container img{
-  width: 100%;
-  height: 100%;
-  transition: all 1.1s;
-}
-.section__pic-container:hover img{
-  transform: scale(1.2);
- 
-}
+
 .section__text {
   align-self: center;
   text-align: center;
