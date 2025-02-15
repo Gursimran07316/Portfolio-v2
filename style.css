@@ -310,7 +310,7 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  min-height: 80%;
 }
 
 .section__pic-container {
